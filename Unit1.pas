@@ -45,9 +45,9 @@ end;
 
 procedure TForm1.FormShow(Sender: TObject);
 begin
- mm1.Items[1].Visible:=False;
- mm1.Items[2].Visible:=False;
- mm1.Items[3].Visible:=False;
+ mm1.Items[1].Visible:=True;
+ mm1.Items[2].Visible:=True;
+ mm1.Items[3].Visible:=True;
 end;
 
 procedure TForm1.KATEGORI1Click(Sender: TObject);

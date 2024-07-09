@@ -11,8 +11,6 @@ type
     ZConnection1: TZConnection;
     ds1: TDataSource;
     ZKategori1: TZQuery;
-    frxrprt1: TfrxReport;
-    frxdbdtst1: TfrxDBDataset;
     
   private
     { Private declarations }

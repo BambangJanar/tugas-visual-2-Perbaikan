@@ -23,7 +23,6 @@ type
     procedure btn1Click(Sender: TObject);
     procedure btn2Click(Sender: TObject);
     procedure btn3Click(Sender: TObject);
-    procedure posisiawal;
     procedure btn4Click(Sender: TObject);
     procedure bersih;
     procedure btn6Click(Sender: TObject);
@@ -93,16 +92,6 @@ end;
 ShowMessage('Data Berhasil DiDelete Wak!');
 end;
 
-procedure TForm3.posisiawal;
-  begin
-    btn6.Enabled:=True;
-    btn1.Enabled:=False;
-    btn2.Enabled:=False;
-    btn3.Enabled:=False;
-    btn5.Enabled:=False;
-    e1.clear;
-    e1.Enabled:=False;
-  end;
 
 
 
@@ -134,10 +123,6 @@ begin
   btn6.Enabled:= False;
 end;
 
-procedure TForm1.FormShow(Sender: TObject);
-begin
-posisiawal;
-end;
 
 
 end.
