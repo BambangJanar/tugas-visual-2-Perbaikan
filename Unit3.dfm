@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 279
-  Top = 153
+  Left = 254
+  Top = 156
   Width = 927
   Height = 480
   Caption = 'Kategori'
@@ -17,9 +17,9 @@ object Form3: TForm3
   object Label1: TLabel
     Left = 120
     Top = 104
-    Width = 37
-    Height = 13
-    Caption = 'Name : '
+    Width = 36
+    Height = 26
+    Caption = 'NAMA :'#13#10
   end
   object Label2: TLabel
     Left = 120
@@ -31,34 +31,34 @@ object Form3: TForm3
   object e1: TEdit
     Left = 224
     Top = 104
-    Width = 121
+    Width = 233
     Height = 21
     TabOrder = 0
   end
   object btn1: TBitBtn
-    Left = 152
+    Left = 144
     Top = 160
-    Width = 75
+    Width = 115
     Height = 25
-    Caption = 'insert'
+    Caption = 'SIMPAN/INSERT'
     TabOrder = 1
     OnClick = btn1Click
   end
   object btn2: TBitBtn
     Left = 272
     Top = 160
-    Width = 75
+    Width = 105
     Height = 25
-    Caption = 'update'
+    Caption = 'UBAH/UPDATE'
     TabOrder = 2
     OnClick = btn2Click
   end
   object btn3: TBitBtn
     Left = 384
     Top = 160
-    Width = 75
+    Width = 105
     Height = 25
-    Caption = 'delete'
+    Caption = 'HAPUS/DELETE'
     TabOrder = 3
     OnClick = btn3Click
   end
@@ -93,5 +93,23 @@ object Form3: TForm3
     Height = 25
     Caption = 'CARI'
     TabOrder = 6
+    OnClick = btn4Click
+  end
+  object btn5: TBitBtn
+    Left = 512
+    Top = 160
+    Width = 75
+    Height = 25
+    Caption = 'BATAL'
+    TabOrder = 7
+  end
+  object btn6: TBitBtn
+    Left = 56
+    Top = 160
+    Width = 75
+    Height = 25
+    Caption = 'BARU'
+    TabOrder = 8
+    OnClick = btn6Click
   end
 end

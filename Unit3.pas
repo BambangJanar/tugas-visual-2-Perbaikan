@@ -17,11 +17,19 @@ type
     Label2: TLabel;
     e2: TEdit;
     btn4: TBitBtn;
+    btn5: TBitBtn;
+    btn6: TBitBtn;
     procedure dbgrd1CellClick(Column: TColumn);
     procedure btn1Click(Sender: TObject);
     procedure btn2Click(Sender: TObject);
     procedure btn3Click(Sender: TObject);
+    procedure posisiawal;
+    procedure btn4Click(Sender: TObject);
+    procedure bersih;
+    procedure btn6Click(Sender: TObject);
+    
   private
+
     { Private declarations }
   public
     { Public declarations }
@@ -84,4 +92,52 @@ begin
 end;
 ShowMessage('Data Berhasil DiDelete Wak!');
 end;
+
+procedure TForm3.posisiawal;
+  begin
+    btn6.Enabled:=True;
+    btn1.Enabled:=False;
+    btn2.Enabled:=False;
+    btn3.Enabled:=False;
+    btn5.Enabled:=False;
+    e1.clear;
+    e1.Enabled:=False;
+  end;
+
+
+
+
+procedure TForm3.btn4Click(Sender: TObject);
+begin
+  with DataModule4.Zkategori1 do
+  begin
+    SQL.Clear;
+    SQL.Add('select * from kategori where name = "'+e1.Text+'"');
+    Open;
+  end;
+end;
+
+
+
+procedure TForm3.bersih;
+begin
+   e1.Clear;
+end;
+
+procedure TForm3.btn6Click(Sender: TObject);
+begin
+  e1.Enabled:= True;
+  btn1.Enabled:= True;
+  btn2.Enabled:= False;
+  btn3.Enabled:= False;
+  btn5.Enabled:= True;
+  btn6.Enabled:= False;
+end;
+
+procedure TForm1.FormShow(Sender: TObject);
+begin
+posisiawal;
+end;
+
+
 end.

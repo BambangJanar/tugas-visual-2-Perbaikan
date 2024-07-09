@@ -22,6 +22,7 @@ type
     procedure LOGIN1Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure KATEGORI1Click(Sender: TObject);
+    
   private
     { Private declarations }
   public
@@ -53,5 +54,6 @@ procedure TForm1.KATEGORI1Click(Sender: TObject);
 begin
 Form3.Show;
 end;
+
 
 end.
