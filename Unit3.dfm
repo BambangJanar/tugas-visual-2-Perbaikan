@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 254
-  Top = 156
+  Left = 237
+  Top = 242
   Width = 927
   Height = 480
   Caption = 'Kategori'

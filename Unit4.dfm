@@ -19,8 +19,8 @@ object DataModule4: TDataModule4
   end
   object ds1: TDataSource
     DataSet = ZKategori1
-    Left = 208
-    Top = 8
+    Left = 152
+    Top = 128
   end
   object ZKategori1: TZQuery
     Connection = ZConnection1
