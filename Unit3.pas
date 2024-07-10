@@ -25,7 +25,10 @@ type
     procedure btn3Click(Sender: TObject);
     procedure btn4Click(Sender: TObject);
     procedure bersih;
+    procedure posisiawal;
+    procedure FromShow(Sender: TObject);
     procedure btn6Click(Sender: TObject);
+    procedure btn5Click(Sender: TObject);
     
   private
 
@@ -124,5 +127,27 @@ begin
 end;
 
 
+
+procedure TForm3.btn5Click(Sender: TObject);
+begin
+  e1.Clear;
+end;
+
+procedure TForm3.posisiawal;
+begin
+  bersih;
+  btn6.Enabled:= True;
+  btn1.Enabled:= false;
+  btn2.Enabled:= false;
+  btn5.Enabled:= false;
+  btn3.Enabled:= false;
+  e1.Enabled:= False;
+end;
+
+
+procedure TForm3.FromShow(Sender: TObject);
+begin
+ posisiawal;
+end;
 
 end.

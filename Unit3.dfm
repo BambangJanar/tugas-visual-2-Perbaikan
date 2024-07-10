@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 237
-  Top = 242
+  Left = 261
+  Top = 206
   Width = 927
   Height = 480
   Caption = 'Kategori'
@@ -12,6 +12,7 @@ object Form3: TForm3
   Font.Style = []
   OldCreateOrder = False
   ShowHint = True
+  OnShow = FromShow
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -102,6 +103,7 @@ object Form3: TForm3
     Height = 25
     Caption = 'BATAL'
     TabOrder = 7
+    OnClick = btn5Click
   end
   object btn6: TBitBtn
     Left = 56

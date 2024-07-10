@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 240
-  Top = 179
+  Left = 283
+  Top = 205
   Width = 928
   Height = 480
   Caption = 'DASHBOARD'
@@ -12,7 +12,6 @@ object Form1: TForm1
   Font.Style = []
   Menu = mm1
   OldCreateOrder = False
-  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object mm1: TMainMenu

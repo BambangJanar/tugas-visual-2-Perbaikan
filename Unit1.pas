@@ -20,7 +20,6 @@ type
     SUPPLIER1: TMenuItem;
     KUSTOMER1: TMenuItem;
     procedure LOGIN1Click(Sender: TObject);
-    procedure FormShow(Sender: TObject);
     procedure KATEGORI1Click(Sender: TObject);
     
   private
@@ -43,12 +42,6 @@ begin
 form2.Show;
 end;
 
-procedure TForm1.FormShow(Sender: TObject);
-begin
- mm1.Items[1].Visible:=True;
- mm1.Items[2].Visible:=True;
- mm1.Items[3].Visible:=True;
-end;
 
 procedure TForm1.KATEGORI1Click(Sender: TObject);
 begin
