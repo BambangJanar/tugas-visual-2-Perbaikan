@@ -60,6 +60,7 @@ DataModule4.Zkategori1.SQL.Clear;
 DataModule4.Zkategori1.SQL.Add('insert into kategori values(null, "'+e1.Text+'")');
 DataModule4.Zkategori1.ExecSQL;
 
+
 DataModule4.Zkategori1.SQL.Clear;
 DataModule4.Zkategori1.SQl.Add('select * from kategori');
 DataModule4.Zkategori1.Open;
@@ -73,6 +74,7 @@ begin
   SQL.Clear;
   SQL.Add('update kategori set name="'+e1.text+'" where id="'+a+'"');
   ExecSQL;
+
 
   SQL.Clear;
   SQL.Add('select * from kategori');
@@ -114,6 +116,7 @@ end;
 procedure TForm3.bersih;
 begin
    e1.Clear;
+
 end;
 
 procedure TForm3.btn6Click(Sender: TObject);
@@ -149,5 +152,6 @@ procedure TForm3.FromShow(Sender: TObject);
 begin
  posisiawal;
 end;
+
 
 end.

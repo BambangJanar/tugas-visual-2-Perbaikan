@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 261
-  Top = 206
+  Left = 270
+  Top = 205
   Width = 927
   Height = 480
   Caption = 'Kategori'
@@ -17,7 +17,7 @@ object Form3: TForm3
   TextHeight = 13
   object Label1: TLabel
     Left = 120
-    Top = 104
+    Top = 80
     Width = 36
     Height = 26
     Caption = 'NAMA :'#13#10
@@ -31,7 +31,7 @@ object Form3: TForm3
   end
   object e1: TEdit
     Left = 224
-    Top = 104
+    Top = 80
     Width = 233
     Height = 21
     TabOrder = 0
